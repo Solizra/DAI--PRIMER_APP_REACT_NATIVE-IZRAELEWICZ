@@ -9,10 +9,7 @@ export default function App() {
   };
 
   return (
-    <ImageBackground
-      source={{ uri: 'https://i.pinimg.com/736x/04/35/ca/0435cad177fbb6224844f95bbf1ff855.jpg' }} 
-      style={styles.background}
-    >
+    <ImageBackground source={{ uri: 'https://i.pinimg.com/736x/04/35/ca/0435cad177fbb6224844f95bbf1ff855.jpg' }} style={styles.background}>
       <View style={styles.container}>
 
         <Text style={styles.titulo}>MI CONTADOR</Text>
